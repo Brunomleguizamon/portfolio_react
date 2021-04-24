@@ -8,13 +8,12 @@ jobs:
     name: deploy app
     runs-on: ubuntu-latest
     strategy:
-    matrix:
-      node-version [ "12.x" ]
+    matrix: node-version [ "12.x" ]
     steps:
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v1
-      with:
-        node-version: ${{matrix.node-version}}
+        with:
+          node-version: ${{matrix.node-version}}
       - name: install packeges
         run: npm install
       - name: registry github user
@@ -24,4 +23,4 @@ jobs:
       - name: deploy the app
         run: npm run deploy
         env:
-            GH_TOCKEN: ${{ secrets.GH_TOKEN }}
+          GH_TOCKEN: ${{ secrets.GH_TOKEN }}
