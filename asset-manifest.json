@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/Brunomleguizamon/portfolio_react/static/css/main.aed2d55c.chunk.css",
+    "main.js": "/Brunomleguizamon/portfolio_react/static/js/main.d8f53e98.chunk.js",
+    "main.js.map": "/Brunomleguizamon/portfolio_react/static/js/main.d8f53e98.chunk.js.map",
+    "runtime-main.js": "/Brunomleguizamon/portfolio_react/static/js/runtime-main.0b8151a7.js",
+    "runtime-main.js.map": "/Brunomleguizamon/portfolio_react/static/js/runtime-main.0b8151a7.js.map",
+    "static/css/2.040c2062.chunk.css": "/Brunomleguizamon/portfolio_react/static/css/2.040c2062.chunk.css",
+    "static/js/2.1ee89eec.chunk.js": "/Brunomleguizamon/portfolio_react/static/js/2.1ee89eec.chunk.js",
+    "static/js/2.1ee89eec.chunk.js.map": "/Brunomleguizamon/portfolio_react/static/js/2.1ee89eec.chunk.js.map",
+    "index.html": "/Brunomleguizamon/portfolio_react/index.html",
+    "static/css/2.040c2062.chunk.css.map": "/Brunomleguizamon/portfolio_react/static/css/2.040c2062.chunk.css.map",
+    "static/css/main.aed2d55c.chunk.css.map": "/Brunomleguizamon/portfolio_react/static/css/main.aed2d55c.chunk.css.map",
+    "static/js/2.1ee89eec.chunk.js.LICENSE.txt": "/Brunomleguizamon/portfolio_react/static/js/2.1ee89eec.chunk.js.LICENSE.txt",
+    "static/media/dcim.96918b99.png": "/Brunomleguizamon/portfolio_react/static/media/dcim.96918b99.png",
+    "static/media/flask-mail.9f26f701.png": "/Brunomleguizamon/portfolio_react/static/media/flask-mail.9f26f701.png",
+    "static/media/me.356c5894.jpg": "/Brunomleguizamon/portfolio_react/static/media/me.356c5894.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0b8151a7.js",
+    "static/css/2.040c2062.chunk.css",
+    "static/js/2.1ee89eec.chunk.js",
+    "static/css/main.aed2d55c.chunk.css",
+    "static/js/main.d8f53e98.chunk.js"
+  ]
+}
