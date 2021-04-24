@@ -1,27 +1,17 @@
-name: Deploy react app
+name: React app deployement
+
 on:
   push:
-    branches:
-      - master
+    branches: [master]
+  pull_request:
+    branches: [master]
+
 jobs:
-  deploy:
-    name: deploy app
+  build:
     runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        node-version: ["12.x"]
+
     steps:
       - uses: actions/checkout@v2
-      - uses: actions/setup-node@v1
-        with:
-          node-version: ${{matrix.node-version}}
-      - name: install packeges
-        run: npm install
-      - name: registry github user
-        run: /
-          git config --global user.email "brunomleguizamon@gmail.com"
-          git config --global user.name "Brunomleguizamon"
-      - name: deploy the app
-        run: npm run deploy
-        env:
-          GH_TOCKEN: ${{ secrets.GH_TOKEN }}
+
+      - name: Deploy react app to github pages
+        uses: tanwanimohit/deploy-react-to-ghpages@v1.0.1
