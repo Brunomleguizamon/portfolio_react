@@ -1,5 +1,5 @@
-
 {
+  "homepage": "https://github.com/Brunomleguizamon/portfolio_react",
   "name": "porfolio_react_en",
   "version": "0.1.0",
   "private": true,
@@ -18,14 +18,13 @@
     "react-scripts": "4.0.3",
     "web-vitals": "^1.0.1"
   },
-  "homepage": "https://github.com/Brunomleguizamon/portfolio_react",
-    "scripts": {
+  "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy" : "npm run build",
-    "deploy" : "https://$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github.com/Brunomleguizamon/portfolio_react"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -48,5 +47,4 @@
   "devDependencies": {
     "gh-pages": "^3.1.0"
   }
-  
 }
