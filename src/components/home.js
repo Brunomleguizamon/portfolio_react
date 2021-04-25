@@ -47,24 +47,18 @@ function Home() {
           <BsList className="bi bi-list mobile-nav-toggle" color="#c70039" />
         </nav>
         <div className="social-links">
-          <a
-            href="https://github.com/Brunomleguizamon"
-            className="github"
-            target="_blank"
-          >
+          <a href="https://github.com/Brunomleguizamon" className="github">
             <AiOutlineGithub color="#c70039" className="bx" />
           </a>
           <a
             href="https://www.linkedin.com/in/bruno-leguizamon-bba59b164"
             className="linkedin"
-            target="_blank"
           >
             <AiFillLinkedin color="#c70039" className="bx" />
           </a>
           <a
             href="https://www.instagram.com/bmleguizamon/"
             className="instagram"
-            target="_blank"
           >
             <AiFillInstagram color="#c70039" className="bx" />
           </a>
