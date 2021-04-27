@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import { BrowserRouter, Route, Switch } from "react-router-dom";
+import { HashRouter, Route, Switch } from "react-router-dom";
 
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/css/bootstrap.css";
@@ -14,15 +14,15 @@ import pageContact from "./components/pages/page-contact.js";
 
 ReactDOM.render(
   <React.StrictMode>
-    <BrowserRouter>
+    <HashRouter>
       <Switch>
-        <Route exact path="/" component={Home} />
-        <Route exact path="/about" component={pageAbout} />
-        <Route exact path="/resume" component={pageResume} />
-        <Route exact path="/portfolio" component={pagePortfolio} />
-        <Route exact path="/contact" component={pageContact} />
+        <Route path="/" exact component={Home} />
+        <Route path="/about" exact component={pageAbout} />
+        <Route path="/resume" exact component={pageResume} />
+        <Route path="/portfolio" exact component={pagePortfolio} />
+        <Route path="/contact" exact component={pageContact} />
       </Switch>
-    </BrowserRouter>
+    </HashRouter>
   </React.StrictMode>,
   document.getElementById("root")
 );
