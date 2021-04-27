@@ -26,7 +26,7 @@ function Portfolio() {
                   to date
                 </Card.Text>
                 <Card.Text>
-                  URL Proyecto:
+                  URL Project:
                   <br />
                   <Card.Link href="http://www.dcim.com.ar" target="_blank">
                     www.dcim.com.ar
@@ -46,7 +46,7 @@ function Portfolio() {
                   App created with react and bootstrap
                 </Card.Text>
                 <Card.Text>
-                  URL Proyecto:
+                  URL Project:
                   <br />
                   <Card.Link
                     href="https://www.brunomleguizamon.com.ar"
@@ -69,7 +69,7 @@ function Portfolio() {
                   Project created with flask, to be used as a contact form
                 </Card.Text>
                 <Card.Text>
-                  URL Proyecto:
+                  URL Project:
                   <br />
                   <Card.Link
                     href="https://app-flask-mail.herokuapp.com/"
