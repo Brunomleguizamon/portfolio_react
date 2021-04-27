@@ -66,7 +66,7 @@ function Portfolio() {
                 <Card.Text>
                   Information:
                   <br />
-                  App created with flask, to be used as a contact form
+                  Project created with flask, to be used as a contact form
                 </Card.Text>
                 <Card.Text>
                   URL Proyecto:
