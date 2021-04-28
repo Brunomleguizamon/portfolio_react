@@ -14,7 +14,7 @@ function Home() {
           <a href="/">Bruno Leguizamon</a>
         </h1>
         <h2>
-          I'm a <span>Web Developer</span> from Buenos Aires
+          I'm a <span>Web Developer</span>
         </h2>
         <nav id="navbar" className="navbar">
           <ul>
@@ -51,7 +51,7 @@ function Home() {
             <AiOutlineGithub color="#c70039" className="bx" />
           </a>
           <a
-            href="https://www.linkedin.com/in/bruno-leguizamon-bba59b164"
+            href="https://www.linkedin.com/in/bruno-leguizamon"
             className="linkedin"
           >
             <AiFillLinkedin color="#c70039" className="bx" />

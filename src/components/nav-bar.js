@@ -8,9 +8,6 @@ function navBar() {
         <h1>
           <a href="/">Bruno Leguizamon</a>
         </h1>
-        <h2>
-          I'm a passionate <span>Web Developer</span> from Buenos Aires
-        </h2>
         <nav id="navbar" className="navbar">
           <ul>
             <li>
@@ -39,7 +36,7 @@ function navBar() {
               </a>
             </li>
           </ul>
-          <BsList className="bi bi-list mobile-nav-toggle" color="#c70039" />
+          <BsList className="mobile-nav-toggle bi bi-list" color="#c70039" />
         </nav>
       </div>
     </header>
