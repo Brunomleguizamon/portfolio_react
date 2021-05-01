@@ -57,6 +57,56 @@ function Contact() {
             </div>
           </div>
         </div>
+        <form
+          action="https://formsubmit.co/brunomleguizamon@gmail.com"
+          method="POST"
+          className="email-form mt-4"
+        >
+          <div className="row">
+            <div className="col-md-6 form-group">
+              <input
+                type="text"
+                name="name"
+                className="form-control"
+                placeholder="Your Name"
+                required
+              />
+            </div>
+            <div className="col-md-6 form-group mt-3 mt-md-0">
+              <input
+                type="email"
+                name="email"
+                className="form-control"
+                placeholder="Your Email"
+                required
+              />
+            </div>
+          </div>
+          <div className="form-group mt-3">
+            <textarea
+              className="form-control"
+              name="message"
+              rows={10}
+              placeholder="Message"
+              required
+            />
+          </div>
+          <div className="text-center">
+            <button type="submit">Send Message</button>
+          </div>
+          <input type="hidden" name="_template" value="table" />
+          <input type="hidden" name="_captcha" value="false" />
+          <input
+            type="hidden"
+            name="_subject"
+            value="Message from portfolio personal"
+          />
+          <input
+            type="hidden"
+            name="_next"
+            value="https://www.brunomleguizamon.com.ar/#/contact"
+          ></input>
+        </form>
       </div>
     </section>
   );

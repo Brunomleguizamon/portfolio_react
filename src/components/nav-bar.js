@@ -50,7 +50,7 @@ function navBar() {
         <nav id="navbar" className="navbar">
           <ul>
             <li>
-              <a className="nav-link" href="/#">
+              <a className="nav-link  "href="/#">
                 Home
               </a>
             </li>
