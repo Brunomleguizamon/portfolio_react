@@ -16,28 +16,27 @@ function Resume() {
               <h5>2020</h5>
               <p>
                 <em>
-                  Universidad Nacional de San Martin,General San Martin, Buenos
+                  National University of San Martin,General San Martin, Buenos
                   Aires
                 </em>
               </p>
             </div>
             <div className="resume-item">
-              <h4>TECHNICATURE IN PROGRAMMING</h4>
+              <h4>PROGRAMMER TECHNICIAN</h4>
               <h5>2020 - Present</h5>
               <p>
                 <em>
-                  Universidad Nacional de San Martin,General San Martin, Buenos
+                  National University of San Martin,General San Martin, Buenos
                   Aires
                 </em>
               </p>
             </div>
             <div className="resume-item">
-              <h4>TECHNICIAN ELECTRO MECHANICAL </h4>
+              <h4>ELECTRO-MECHANICAL TECHNICIAN</h4>
               <h5>2009 - 2016</h5>
               <p>
                 <em>
-                  Escuela de Educacion Secundaria Tecnica Nº4 - Emilio Mitre,
-                  General San Martin, Buenos Aires
+                  E.E.S.T Nº4 - Emilio Mitre, General San Martin, Buenos Aires
                 </em>
               </p>
             </div>
@@ -48,7 +47,7 @@ function Resume() {
               <h4>MAINTENANCE ANALYST</h4>
               <h5>2018 - Present</h5>
               <p>
-                <em>Sanatorio Anchorena de San Martin</em>
+                <em>Anchorena's Sanatorium of San Martin</em>
               </p>
               <p>Performing tasks such as:</p>
               <p></p>

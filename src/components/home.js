@@ -6,6 +6,36 @@ import {
   AiFillLinkedin,
 } from "react-icons/ai";
 
+function navMenu() {
+  const select = (el, all = false) => {
+    el = el.trim();
+    if (all) {
+      return [...document.querySelectorAll(el)];
+    } else {
+      return document.querySelector(el);
+    }
+  };
+
+  const on = (type, el, listener, all = false) => {
+    let selectEl = select(el, all);
+
+    if (selectEl) {
+      if (all) {
+        selectEl.forEach((e) => e.addEventListener(type, listener));
+      } else {
+        selectEl.addEventListener(type, listener);
+      }
+    }
+  };
+
+  on("click", ".mobile-nav-toggle", function (e) {
+    select("#navbar").classList.toggle("navbar-mobile");
+    this.classList.toggle("bi-list");
+    this.classList.toggle("bi-x");
+    console.log("ouch from home");
+  });
+}
+
 function Home() {
   return (
     <header id="header">
@@ -14,7 +44,7 @@ function Home() {
           <a href="/">Bruno Leguizamon</a>
         </h1>
         <h2>
-          I'm a <span>Web Developer</span> from Buenos Aires
+          I'm a <span>Web Developer</span>
         </h2>
         <nav id="navbar" className="navbar">
           <ul>
@@ -44,14 +74,18 @@ function Home() {
               </a>
             </li>
           </ul>
-          <BsList className="bi bi-list mobile-nav-toggle" color="#c70039" />
+          <BsList
+            onClick={navMenu}
+            className="bi bi-list mobile-nav-toggle"
+            color="#c70039"
+          />
         </nav>
         <div className="social-links">
           <a href="https://github.com/Brunomleguizamon" className="github">
             <AiOutlineGithub color="#c70039" className="bx" />
           </a>
           <a
-            href="https://www.linkedin.com/in/bruno-leguizamon-bba59b164"
+            href="https://www.linkedin.com/in/bruno-leguizamon"
             className="linkedin"
           >
             <AiFillLinkedin color="#c70039" className="bx" />
