@@ -3,6 +3,7 @@ import Card from "react-bootstrap/Card";
 
 import imagenDCIM from "../images/dcim.png";
 import imagenFlaskAPP from "../images/flask-mail.png";
+import imagenPortfolio from "../images/portfolio.png";
 
 function Portfolio() {
   return (
@@ -25,10 +26,33 @@ function Portfolio() {
                   to date
                 </Card.Text>
                 <Card.Text>
-                  URL Proyecto:
+                  URL Project:
                   <br />
                   <Card.Link href="http://www.dcim.com.ar" target="_blank">
                     www.dcim.com.ar
+                  </Card.Link>
+                </Card.Text>
+              </Card.Body>
+            </Card>
+          </div>
+          <div className="col-md-4">
+            <Card style={{ width: "22rem", backgroundColor: "black" }}>
+              <Card.Img variant="top" src={imagenPortfolio} />
+              <Card.Body>
+                <Card.Title>Portfolio personal</Card.Title>
+                <Card.Text>
+                  Information:
+                  <br />
+                  App created with react and bootstrap
+                </Card.Text>
+                <Card.Text>
+                  URL Project:
+                  <br />
+                  <Card.Link
+                    href="https://www.brunomleguizamon.com.ar"
+                    target="_blank"
+                  >
+                    www.brunomleguizamon.com.ar
                   </Card.Link>
                 </Card.Text>
               </Card.Body>
@@ -42,10 +66,10 @@ function Portfolio() {
                 <Card.Text>
                   Information:
                   <br />
-                  App created with flask, to be used as a contact form
+                  Project created with flask, to be used as a contact form
                 </Card.Text>
                 <Card.Text>
-                  URL Proyecto:
+                  URL Project:
                   <br />
                   <Card.Link
                     href="https://app-flask-mail.herokuapp.com/"

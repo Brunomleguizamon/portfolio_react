@@ -42,7 +42,7 @@ function Contact() {
                   <AiOutlineGithub color="#c70039" className="bx" />
                 </a>
                 <a
-                  href="https://www.linkedin.com/in/bruno-leguizamon-bba59b164"
+                  href="https://www.linkedin.com/in/bruno-leguizamon"
                   className="linkedin"
                 >
                   <AiFillLinkedin color="#c70039" className="bx" />
