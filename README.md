@@ -57,5 +57,7 @@ Existing scripts property we to need to add predeploy and deploy.
 
 ### `npm run deploy`
 
-Now deploy it to GitHub Pages just run the command
+Now deploy it to GitHub Pages just run the command,
+
+Remember change custom domain in github pages
 
