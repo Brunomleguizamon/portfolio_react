@@ -38,10 +38,10 @@ function About() {
                   </li>
                   <li>
                     <BsChevronRight color="#c70039" />
-                    <strong>Phone:</strong> <span>+54 9 11 6166 1271</span>
+                    <strong>Phone:</strong> <span>+45 5025 9102</span>
                   </li>
                   <li>
-                    <BsChevronRight color="#c70039" /> <strong>City:</strong>
+                    <BsChevronRight color="#c70039" /> <strong>From:</strong>
                     <span>Buenos Aires, Argentina</span>
                   </li>
                 </ul>
@@ -55,6 +55,10 @@ function About() {
                   <li>
                     <BsChevronRight color="#c70039" /> <strong>Email:</strong>{" "}
                     <span>brunomleguizamon@gmail.com</span>
+                  </li>
+                  <li>
+                    <BsChevronRight color="#c70039" /> <strong>Living:</strong>
+                    <span>Copenhagen, Denmark</span>
                   </li>
                 </ul>
               </div>
