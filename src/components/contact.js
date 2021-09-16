@@ -27,7 +27,7 @@ function Contact() {
               <BiPhoneCall color="#c70039" fontSize="2rem" className="bi" />
 
               <h3>Call Me</h3>
-              <p>+54 9 11 6166 12 71</p>
+              <p>+45 5025 9102</p>
             </div>
           </div>
           <div className="col-md-6 mt-4 d-flex align-items-stretch">
